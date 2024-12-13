@@ -52,7 +52,7 @@ text = data_preprocess(df1,df2)['text']
 print(headlines.sample(5))
 print(text.sample(5))
 
-# print(expand_contractions("y'all can't expand contractions i'd think"))
+print(expand_contractions("y'all can't expand contractions i'd think"))
 # file_path = 'example_dataset.csv'
 # input_texts, target_texts = load_data(file_path)
 # print(input_texts)
